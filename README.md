@@ -14,7 +14,7 @@ O BancoMR é uma aplicação desenvolvida em Java focado em demonstrar as navega
 ![GIF do projeto](https://github.com/rfemina/BancoMRJava/blob/master/BancoMR-Java.gif)
 
 ### YouTube
-[![Assista ao vídeo](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)](https://youtu.be/Cs2HoPNT1KU)
+[![Assista ao vídeo](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)](https://youtu.be/tZGAbwQD-nU)
 
 ### Arquivo APK
 [![Arquivo APK](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://github.com/rfemina/BancoMRJava/blob/master/BancoMR-java.apk)
