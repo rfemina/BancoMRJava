@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Model.Invoices">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarInvoices"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue"
+        app:navigationIcon="@drawable/ic_voltar"
+        app:title="Faturas"
+        app:titleMarginStart="20dp"
+        app:titleTextColor="@color/white" />
+
+
+    <TextView
+        android:id="@+id/txtInvoiceSummary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:text="Resumo das Faturas"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <com.vinaygaba.creditcardview.CreditCardView
+        android:id="@+id/CreditCard"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_margin="20dp"
+        android:backgroundTint="@color/black" />
+
+
+    <TextView
+        android:id="@+id/txtDueDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:gravity="left"
+        android:text="Data de Vencimento: 05/03/2022"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtPartialBalance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:gravity="left"
+        android:text="Saldo Parcial: 500,00"
+        android:textSize="18sp" />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:backgroundTint="@color/blue"
+        android:padding="15dp"
+        android:text="Pagar Fatura"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        />
+
+
+</LinearLayout>
+</ScrollView>

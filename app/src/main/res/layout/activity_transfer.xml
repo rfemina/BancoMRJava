@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Model.Transfer"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarTransfer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue"
+        app:title="Transferências"
+        app:titleTextColor="@color/white"
+        app:titleMarginStart="20dp"
+        app:navigationIcon="@drawable/ic_voltar"
+        />
+
+    <TextView
+        android:id="@+id/txtTransfer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Transferências"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/txtTransferTo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Para: "
+        android:textSize="25sp"
+        android:layout_marginStart="10dp"
+        android:gravity="left"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:id="@+id/txtValueTransfer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Valor: "
+        android:textSize="25sp"
+        android:layout_marginStart="10dp"
+        android:gravity="left"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        />
+
+</LinearLayout>
+</ScrollView>
